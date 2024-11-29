@@ -1,5 +1,5 @@
 import numpy as np
-
+# 
 def hopfield_train(patterns):
     """Train a Hopfield network using Hebbian learning."""
     num_neurons = patterns.shape[1]
